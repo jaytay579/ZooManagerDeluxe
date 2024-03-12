@@ -376,18 +376,6 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.NET.ILLink.Analyzers.props": {}
-        }
-      },
-      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.NET.ILLink.Tasks.props": {}
-        }
-      },
       "System.IO.Pipelines/5.0.2": {
         "type": "package",
         "compile": {
@@ -788,18 +776,6 @@
           "lib/net5.0/Microsoft.JSInterop.WebAssembly.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.NET.ILLink.Analyzers.props": {}
-        }
-      },
-      "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
-        "type": "package",
-        "build": {
-          "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
       "System.IO.Pipelines/5.0.2": {
@@ -1304,53 +1280,6 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Analyzers/7.0.100-1.23211.1": {
-      "sha512": "0GvbEgDGcUQA9KuWcQU1WwYHXt1tBzNr1Nls/M57rM7NA/AndFwCaCEoJpJkmxRY7xLlPDBnmGp8h5+FNqUngg==",
-      "type": "package",
-      "path": "microsoft.net.illink.analyzers/7.0.100-1.23211.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
-        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
-        "build/Microsoft.NET.ILLink.Analyzers.props",
-        "microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
-        "microsoft.net.illink.analyzers.nuspec"
-      ]
-    },
-    "Microsoft.NET.ILLink.Tasks/7.0.100-1.23211.1": {
-      "sha512": "tvG8XZYLjT0o3WicCyKBZysVWo1jC9HdCFmNRmddx3WbAz0UCsd0qKZqpiEo99VLA8Re+FzWK51OcRldQPbt2Q==",
-      "type": "package",
-      "path": "microsoft.net.illink.tasks/7.0.100-1.23211.1",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "Sdk/Sdk.props",
-        "build/6.0_suppressions.xml",
-        "build/Microsoft.NET.ILLink.Tasks.props",
-        "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
-        "microsoft.net.illink.tasks.nuspec",
-        "tools/net472/ILLink.Tasks.dll",
-        "tools/net472/Mono.Cecil.dll",
-        "tools/net472/System.Buffers.dll",
-        "tools/net472/System.Collections.Immutable.dll",
-        "tools/net472/System.Memory.dll",
-        "tools/net472/System.Numerics.Vectors.dll",
-        "tools/net472/System.Reflection.Metadata.dll",
-        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
-        "tools/net7.0/ILLink.Tasks.deps.json",
-        "tools/net7.0/ILLink.Tasks.dll",
-        "tools/net7.0/Mono.Cecil.Pdb.dll",
-        "tools/net7.0/Mono.Cecil.dll",
-        "tools/net7.0/illink.deps.json",
-        "tools/net7.0/illink.dll",
-        "tools/net7.0/illink.runtimeconfig.json"
-      ]
-    },
     "System.IO.Pipelines/5.0.2": {
       "sha512": "Iew+dfa6FFiyvWBdRmXApixRY1db+beyutpIck4SOSe0NLM8FD/7AD54MscqVLhvfSMLHO7KadjTRT7fqxOGTA==",
       "type": "package",
@@ -1404,8 +1333,6 @@
     "net5.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 5.0.17",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 5.0.17",
-      "Microsoft.NET.ILLink.Analyzers >= 7.0.100-1.23211.1",
-      "Microsoft.NET.ILLink.Tasks >= 7.0.100-1.23211.1",
       "System.Net.Http.Json >= 5.0.0"
     ]
   },
@@ -1415,11 +1342,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jay/Desktop/ZooManager2019/ZooManager/ZooManager.csproj",
+      "projectUniqueName": "/Users/jay/Projects/ZooManagerDeluxe/ZooManager/ZooManager.csproj",
       "projectName": "ZooManager",
-      "projectPath": "/Users/jay/Desktop/ZooManager2019/ZooManager/ZooManager.csproj",
+      "projectPath": "/Users/jay/Projects/ZooManagerDeluxe/ZooManager/ZooManager.csproj",
       "packagesPath": "/Users/jay/.nuget/packages/",
-      "outputPath": "/Users/jay/Desktop/ZooManager2019/ZooManager/obj/",
+      "outputPath": "/Users/jay/Projects/ZooManagerDeluxe/ZooManager/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jay/.nuget/NuGet/NuGet.Config"
@@ -1441,11 +1368,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1460,18 +1382,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.17, )"
-          },
-          "Microsoft.NET.ILLink.Analyzers": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[7.0.100-1.23211.1, )",
-            "autoReferenced": true
-          },
-          "Microsoft.NET.ILLink.Tasks": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "[7.0.100-1.23211.1, )",
-            "autoReferenced": true
           },
           "System.Net.Http.Json": {
             "target": "Package",
@@ -1508,7 +1418,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QG6Hc+thJzNmsU1RCYnwcbfv4I08Qm5NFAgAWwWbau8T5HlDQEgnz4R8WFobeLIFNu66hLi388gc753gSfpcXA==",
+  "dgSpecHash": "W/EOB/mWw4NAMgTZJNH0bJLk93iyF4mtt6+GTxOEJREpC+8kd6woLK+k9Wbpo8C8+sCsBIKAlKoubr6oq+sk9Q==",
   "success": true,
-  "projectFilePath": "/Users/jay/Desktop/ZooManager2019/ZooManager/ZooManager.csproj",
+  "projectFilePath": "/Users/jay/Projects/ZooManagerDeluxe/ZooManager/ZooManager.csproj",
   "expectedPackageFiles": [
     "/Users/jay/.nuget/packages/microsoft.aspnetcore.authorization/5.0.17/microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "/Users/jay/.nuget/packages/microsoft.aspnetcore.components/5.0.17/microsoft.aspnetcore.components.5.0.17.nupkg.sha512",
@@ -28,12 +28,10 @@
     "/Users/jay/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/jay/.nuget/packages/microsoft.jsinterop/5.0.17/microsoft.jsinterop.5.0.17.nupkg.sha512",
     "/Users/jay/.nuget/packages/microsoft.jsinterop.webassembly/5.0.17/microsoft.jsinterop.webassembly.5.0.17.nupkg.sha512",
-    "/Users/jay/.nuget/packages/microsoft.net.illink.analyzers/7.0.100-1.23211.1/microsoft.net.illink.analyzers.7.0.100-1.23211.1.nupkg.sha512",
-    "/Users/jay/.nuget/packages/microsoft.net.illink.tasks/7.0.100-1.23211.1/microsoft.net.illink.tasks.7.0.100-1.23211.1.nupkg.sha512",
     "/Users/jay/.nuget/packages/system.io.pipelines/5.0.2/system.io.pipelines.5.0.2.nupkg.sha512",
     "/Users/jay/.nuget/packages/system.net.http.json/5.0.0/system.net.http.json.5.0.0.nupkg.sha512",
-    "/Users/jay/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
     "/Users/jay/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/jay/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
     "/Users/jay/.nuget/packages/microsoft.netcore.app.runtime.browser-wasm/5.0.17/microsoft.netcore.app.runtime.browser-wasm.5.0.17.nupkg.sha512"
   ],
   "logs": []
